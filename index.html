@@ -33,19 +33,21 @@
 				</li>
 			</ul>
 		</nav>
-		<nav class="top-nav">
+		<div class="top-nav">
 			<div class="top">
 				<img src="/assets/search_black_24dp.svg" alt="" /><input
 					id="search"
 					type="text"
 				/>
-				<img src="/assets/notifications_active_black_24dp.svg" alt="" />
-				<img src="/assets/image.svg" alt="" />
-				<p>Morgan Okaley</p>
+				<div id="top-right">
+					<img src="/assets/notifications_active_black_24dp.svg" alt="" />
+					<img class="profile-Image" src="/assets/image.svg" alt="" />
+					<p>Morgan Okaley</p>
+				</div>
 			</div>
 			<div class="bottom">
 				<div class="bottom-right">
-					<img src="/assets/image.svg" alt="" />
+					<img class="profile-Image" src="/assets/image.svg" alt="" />
 					<div>
 						<p id="small">Hi there,</p>
 						<p id="big">Morgan Okaley (@morgan)</p>
@@ -59,63 +61,95 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
+		</div>
 		<main>
 			<div class="projects">
 				<h3>Your Projects</h3>
 				<div class="card">
-					<h3>Project Name</h3>
+					<h4>Project Name</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum
 						commodi cum repellat dicta suscipit sint ut, repellendus fuga enim
 						iste provident, cupiditate deleniti repudiandae adipisci harum
 						accusantium qui quisquam.
 					</p>
+					<div class="socials">
+						<img src="/assets/grade_black_18dp.svg" alt="" /><img
+							src="assets/visibility_black_18dp.svg"
+							alt=""
+						/><img src="/assets/bookmark_border_black_18dp.svg" alt="" />
+					</div>
 				</div>
 				<div class="card">
-					<h3>Project Name</h3>
+					<h4>Project Name</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum
 						commodi cum repellat dicta suscipit sint ut, repellendus fuga enim
 						iste provident, cupiditate deleniti repudiandae adipisci harum
 						accusantium qui quisquam.
 					</p>
+					<div class="socials">
+						<img src="/assets/grade_black_18dp.svg" alt="" /><img
+							src="assets/visibility_black_18dp.svg"
+							alt=""
+						/><img src="/assets/bookmark_border_black_18dp.svg" alt="" />
+					</div>
 				</div>
 				<div class="card">
-					<h3>Project Name</h3>
+					<h4>Project Name</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum
 						commodi cum repellat dicta suscipit sint ut, repellendus fuga enim
-						iste provident, cupiditate deleniti repudiandae adipisci harum
-						accusantium qui quisquam.
+						iste provident, cupiditate deleniti
 					</p>
+					<div class="socials">
+						<img src="/assets/grade_black_18dp.svg" alt="" /><img
+							src="assets/visibility_black_18dp.svg"
+							alt=""
+						/><img src="/assets/bookmark_border_black_18dp.svg" alt="" />
+					</div>
 				</div>
 				<div class="card">
-					<h3>Project Name</h3>
+					<h4>Project Name</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum
 						commodi cum repellat dicta suscipit sint ut, repellendus fuga enim
-						iste provident, cupiditate deleniti repudiandae adipisci harum
-						accusantium qui quisquam.
+						iste provident.
 					</p>
+					<div class="socials">
+						<img src="/assets/grade_black_18dp.svg" alt="" /><img
+							src="assets/visibility_black_18dp.svg"
+							alt=""
+						/><img src="/assets/bookmark_border_black_18dp.svg" alt="" />
+					</div>
 				</div>
 				<div class="card">
-					<h3>Project Name</h3>
+					<h4>Project Name</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum
 						commodi cum repellat dicta suscipit sint ut, repellendus fuga enim
 						iste provident, cupiditate deleniti repudiandae adipisci harum
-						accusantium qui quisquam.
 					</p>
+					<div class="socials">
+						<img src="/assets/grade_black_18dp.svg" alt="" /><img
+							src="assets/visibility_black_18dp.svg"
+							alt=""
+						/><img src="/assets/bookmark_border_black_18dp.svg" alt="" />
+					</div>
 				</div>
 				<div class="card">
-					<h3>Project Name</h3>
+					<h4>Project Name</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum
 						commodi cum repellat dicta suscipit sint ut, repellendus fuga enim
-						iste provident, cupiditate deleniti repudiandae adipisci harum
-						accusantium qui quisquam.
+						iste provident, cupiditate deleniti repudiandae
 					</p>
+					<div class="socials">
+						<img src="/assets/grade_black_18dp.svg" alt="" /><img
+							src="assets/visibility_black_18dp.svg"
+							alt=""
+						/><img src="/assets/bookmark_border_black_18dp.svg" alt="" />
+					</div>
 				</div>
 			</div>
 			<div class="announcements">
@@ -143,31 +177,31 @@
 			</div>
 			<div class="trending">
 				<h3>Trending</h3>
-				<div class="card">
+				<div class="tren-card">
 					<div>
 						<img src="/assets/image.svg" alt="" />
-						<div>
+						<div id="du">
 							<p>@Teagan</p>
 							<p>Name Surname</p>
 						</div>
 					</div>
 					<div>
 						<img src="/assets/image.svg" alt="" />
-						<div>
+						<div id="du">
 							<p>@Teagan</p>
 							<p>Name Surname</p>
 						</div>
 					</div>
 					<div>
 						<img src="/assets/image.svg" alt="" />
-						<div>
+						<div id="du">
 							<p>@Teagan</p>
 							<p>Name Surname</p>
 						</div>
 					</div>
 					<div>
 						<img src="/assets/image.svg" alt="" />
-						<div>
+						<div id="du">
 							<p>@Teagan</p>
 							<p>Name Surname</p>
 						</div>
